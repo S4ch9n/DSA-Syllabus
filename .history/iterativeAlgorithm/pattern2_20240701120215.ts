@@ -15,10 +15,3 @@ function pattern2(n : number){
   }
 }
 pattern2(7)
-
-// output
-// *****
-//  ****
-//   ***
-//    **
-//     *
