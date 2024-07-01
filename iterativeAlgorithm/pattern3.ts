@@ -19,3 +19,12 @@ function diamondPattern(n : number){
   }
 }
 diamondPattern(7)
+
+// output
+//    *
+//   ***
+//  *****
+// *******
+//  *****
+//   ***
+//    *

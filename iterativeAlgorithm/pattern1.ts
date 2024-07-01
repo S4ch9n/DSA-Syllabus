@@ -12,3 +12,10 @@ function pattern1(n : number){
   }
 }
 pattern1(5)
+
+// output
+// *
+// **
+// ***
+// ****
+// *****
