@@ -5,7 +5,6 @@ function findCeil(arr: number[], target: number): number {
   
   while (left <= right) {
     let mid = Math.floor((left + right) / 2);
-    
     if (arr[mid] === target) {
       return arr[mid];
     } else if (arr[mid] < target) {
