@@ -10,3 +10,16 @@ function printAllSubarray(arr : number[]) : void {
   }
 }
 printAllSubarray([5,6,2,3])
+
+
+// output
+// 5 
+// 5 6 
+// 5 6 2 
+// 5 6 2 3 
+// 6 
+// 6 2 
+// 6 2 3 
+// 2 
+// 2 3 
+// 3 
