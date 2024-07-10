@@ -1,7 +1,7 @@
 function toggleCase(s : string) : string {
   let ans = ""
   for (let i = 0 ; i < s.length ; i++){
-    let ascii = s.charCodeAt(i)
+    let ascii = s.charCodeAt(i) //Return ascii value of s
     if(ascii < 97){
       //this is a capital letter
       ascii += 32
@@ -14,3 +14,5 @@ function toggleCase(s : string) : string {
   return ans
 }
 console.log(toggleCase('aBcDe'))
+
+//output : AbCdE
