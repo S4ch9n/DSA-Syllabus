@@ -4,4 +4,4 @@ function toh(n , s , d , h) : void{
   console.log("move disc" , n,"from",s, "to",d);
   toh(n-1,h,d,s)
 }
-toh(3,"A","B","C")
+toh(3,"A","B","C") 
